@@ -14,4 +14,7 @@ EXPERIMENT 5
 Experiment 5(https://github.com/charanyac/oscsa0472/blob/main/EXPERIMENT%205)
 ![image](https://user-images.githubusercontent.com/113339287/192300961-0010bdfa-9770-445f-ac87-75db63ac7ddf.png)
 EXPERIMENT 6
-Experiment 6(
+Experiment 6(https://github.com/charanyac/oscsa0472/blob/main/EXPERIMENT%206)
+![image](https://user-images.githubusercontent.com/113339287/192301571-fe9247f3-0453-42c9-9070-edc6d89efca1.png)
+EXPERIMENT 7
+Experiment 7(
