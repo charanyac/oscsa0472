@@ -1,0 +1,54 @@
+# include <stdio.h>
+# include <string.h>
+int main( )
+{    FILE *fp ;
+    char data[50];
+    printf( "Opening the file test.c in write mode" ) ;
+    fp = fopen("test.txt", "w") ;
+    if ( fp == NULL )
+    {
+	printf( "Could not open file test.txt" ) ;
+    }    printf( "\n Enter some text from keyboard to write in the file test.txt" ) ;    while ( strlen ( gets( data ) ) > 0 )
+    {	fputs(data, fp) ;
+	fputs("\n", fp) ;
+    }    printf("Closing the file test.txt") ;
+    fclose(fp) ;
+}
+(B)
+# include <stdio.h>
+int main( )
+{	 FILE *fp ;
+	 char data[50] ;
+	 printf( "Opening the file test.txt in read mode" ) ;
+	 fp = fopen( "test.txt", "r" ) ;
+	 if ( fp == NULL )
+	 {		 printf( "Could not open file test.txt" ) ;
+	 }	 printf( "Reading the file test.txt" ) ;
+	 while( fgets ( data, 50, fp ) != NULL )
+	 printf( "%s" , data ) ;
+	 printf("Closing the file test.txt") ;
+	 fclose(fp) ;
+}
+(C)
+#include <stdio.h>
+int main()
+{
+FILE *fp;
+char ch;
+int i,pos;
+fp=fopen("test.txt","r");
+if(fp==NULL)
+{
+printf("file doesnot exist \n");
+}
+fseek(fp,0,SEEK_END);
+pos=ftell(fp);
+i=0;
+while(i<pos)
+{
+i++;
+fseek(fp,-i,SEEK_END);
+ch=fgetc(fp);
+printf("%c",ch);
+}
+}
