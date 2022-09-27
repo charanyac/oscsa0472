@@ -28,4 +28,8 @@ Experiment 9(https://github.com/charanyac/oscsa0472/blob/main/EXPERIMENT%209)
 EXPERIMENT 10
 Experiment 10(https://github.com/charanyac/oscsa0472/blob/main/EXPERIMENT%2010)
 ![image](https://user-images.githubusercontent.com/113339287/192305276-04a54ec2-8d91-405e-9f96-d04270ec08f2.png)
-
+EXPERIMENT 11
+Experiment 11(https://github.com/charanyac/oscsa0472/blob/main/EXPERIMENT%2011)
+![image](https://user-images.githubusercontent.com/113339287/192554017-f1228226-239b-4593-8ef4-5b6c1651d0dd.png)
+EXPERIMENT 12
+Experiment 12(
